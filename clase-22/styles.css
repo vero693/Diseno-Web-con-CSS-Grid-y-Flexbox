@@ -41,9 +41,7 @@ header p {
     gap: 29px;
     align-items: center;
     overflow-x: scroll;
-    scroll-snap-type: x proximity;
-    overflow-y: hidden;
-     white-space: nowrap;
+    scroll-snap-type: x mandatory;
 }
 
 .cards div {
